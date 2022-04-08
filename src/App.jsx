@@ -1,13 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Border from "./components/Border";
+import Board from "./components/Board/Board";
 
 function App() {
   return (
     <div className="App">
-      <h1>Game</h1>
-      <h2>qweqw</h2>
-      <Border />
+      <Board />
     </div>
   );
 }

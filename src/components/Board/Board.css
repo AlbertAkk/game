@@ -1,0 +1,63 @@
+.mainSection{
+    display: block;
+    margin: 0 auto;
+}
+
+.board{
+    outline: 2px solid #969c9c;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.row{
+    height: 50px;
+}
+
+.cell{
+    width: 50px;
+    height: 50px;
+    outline: 1px solid #969c9c;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.cellBlack{
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    outline: 1px solid #969c9c;
+    display: inline-block;
+}
+
+.cellBlue{
+    background-color: rgb(55, 13, 239);
+    width: 50px;
+    height: 50px;
+    outline: 1px solid #969c9c;
+    display: inline-block;
+}
+
+.btnContainer{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0;
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    outline: none;  
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.reset{
+    background-color: red;
+}
+
+.run{
+    background-color: blue;
+}
